@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">ComposePractice</string>
+    <string name="title">My title</string>
+    <string name="body"> wrong code :) LayoutInspector shows that all Composables are recompose every time if user changes textfield content . Solution is : lambda should be on top level like this
+val onNameChangeText = remember {
+			{ nameVal: String -> name = nameVal }
+		} .
+ But any way , thank you so much for your videos 👍🙏</string>
 </resources>
